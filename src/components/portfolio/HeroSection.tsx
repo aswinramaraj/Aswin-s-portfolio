@@ -83,13 +83,19 @@ export const HeroSection = () => {
             >
               View My Work
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="text-lg px-8 py-6 border-primary/50 hover:bg-primary/10"
-            >
-              Download CV
-            </Button>
+      <a
+  href="/ASWIN KUMAR R-23AM007.pdf"
+  download
+  className="inline-block"
+>
+  <Button
+    variant="outline"
+    size="lg"
+    className="text-lg px-8 py-6 border-primary/50 hover:bg-primary/10"
+  >
+    Download CV
+  </Button>
+</a>
           </div>
         </div>
       </div>

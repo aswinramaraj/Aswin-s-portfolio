@@ -12,26 +12,37 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    title: "Languages",
-    skills: ["Python", "C", "C++", "Java", "JavaScript", "TypeScript"],
+    title: "Programming Languages",
+    skills: ["Python", "JavaScript", "TypeScript", "C++", "Java", "C"],
     icon: "💻"
   },
   {
-    title: "Frontend",
+    title: "Frontend Development",
     skills: ["React", "Next.js", "Tailwind CSS", "Bootstrap", "HTML5", "CSS3"],
     icon: "🎨"
   },
   {
-    title: "Backend",
-    skills: ["Node.js", "Express.js", "Firebase", "PostgreSQL", "MongoDB"],
-    icon: "⚡"
+    title: "Backend & Database",
+    skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Firebase", "Redis"],
+    icon: "🧩"
   },
   {
-    title: "Tools & Others",
-    skills: ["Power BI", "VS Code", "Canva", "Excel", "Figma", "Postman"],
+    title: "AI & Machine Learning",
+    skills: ["Gemini API", "Custom AI Models", "NLP", "Computer Vision", "TensorFlow", "PyTorch"],
+    icon: "🧠"
+  },
+  {
+    title: "Development Tools",
+    skills: ["VS Code", "Git", "Docker", "Postman", "Figma", "Canva"],
     icon: "🛠️"
+  },
+  {
+    title: "Analytics & Design",
+    skills: ["Power BI", "Google Analytics", "Excel", "Data Visualization", "UI/UX Design"],
+    icon: "📊"
   }
 ];
+
 
 export const SkillsSection = () => {
   const sectionRef = useRef<HTMLElement>(null);

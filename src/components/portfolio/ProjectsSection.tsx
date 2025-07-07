@@ -17,31 +17,44 @@ const projects: Project[] = [
     title: "Virtulan",
     tech: "MERN + Unreal Engine 5",
     description: "A virtual experience platform combining web and game engine tech for immersive digital interactions.",
-    gradient: "from-purple-600 to-blue-600"
+    gradient: "from-purple-600 to-blue-600",
+    githublink:"https://github.com/aswinramaraj/3Dlab"
   },
   {
     title: "Storytelling Video Generator",
     tech: "MERN, Gemini API, Custom AI Model",
     description: "Creates dynamic storytelling videos using AI narration and visuals for engaging content creation.",
-    gradient: "from-pink-600 to-purple-600"
+    gradient: "from-pink-600 to-purple-600",
+    githublink:"https://github.com/aswinramaraj/Storytelling-Video-Generator" 
   },
   {
     title: "Snapzone",
     tech: "MERN",
     description: "Media-sharing platform with instant posting and real-time updates for seamless social connectivity.",
-    gradient: "from-blue-600 to-cyan-600"
+    gradient: "from-blue-600 to-cyan-600",
+    githublink:"https://github.com/aswinramaraj/Snapzone"
   },
   {
     title: "Quiz Generator",
     tech: "MERN, Gemini API, Google Apps Script",
     description: "AI-powered quiz generation tool for educational use with automated content creation capabilities.",
-    gradient: "from-green-600 to-teal-600"
+    gradient: "from-green-600 to-teal-600",
+    githublink:"https://github.com/aswinramaraj/Quiz-Generator"
+  },
+  {
+    title: "Open Donation",
+    tech: "MERN, Stripe",
+    description: "An open donation platform built with the MERN stack, enabling users to give away items they no longer need to those in need. It acts as a bridge between donors and recipients, promoting sustainable reuse and community support without involving money.",
+    gradient: "from-pink-500 to-rose-400",
+    githublink:"https://github.com/aswinramaraj/Open-Donation"
+
   },
   {
     title: "Freelance Projects",
     tech: "Modern Web Technologies",
     description: "Developed responsive sites and admin dashboards for clients using cutting-edge web technologies.",
-    gradient: "from-orange-600 to-red-600"
+    gradient: "from-orange-600 to-red-600",
+    githublink:"https://github.com/aswinramaraj/Freelance-Projects"
   }
 ];
 
@@ -148,6 +161,7 @@ export const ProjectsSection = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
+                  onClick={() => window.open(project.githublink, '_blank')}
                   className="w-full border-primary/30 hover:bg-primary/10 group-hover:border-primary/50 transition-all duration-300"
                 >
                   View Details

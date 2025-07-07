@@ -41,7 +41,7 @@ export const Navigation = () => {
 
         <div className="flex space-x-4">
           <a 
-            href="https://github.com" 
+            href="https://github.com/aswinramaraj" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-foreground/60 hover:text-primary transition-colors duration-300"
@@ -51,7 +51,7 @@ export const Navigation = () => {
             </svg>
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/aswin-ramaraj-b0bb50303/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-foreground/60 hover:text-primary transition-colors duration-300"
